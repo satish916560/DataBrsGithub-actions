@@ -16,13 +16,13 @@ jobs:
 
       - name: Databricks CLI version
         run: databricks --version
-      - name: Run databricks job "pipeline"
-        env:
-          DATABRICKS_HOST: https://dbc-11df7ca4-5026.cloud.databricks.com
-          DATABRICKS_TOKEN: dapi2f98369b849c3790a880a6a9e4748434
-          JOB_NAME: 'pipeline'
-          WAIT_TIMEOUT: '10m0s'
-        run: databricks jobs list
+      # - name: Run databricks job "pipeline"
+      #   env:
+      #     DATABRICKS_HOST: https://dbc-11df7ca4-5026.cloud.databricks.com
+      #     DATABRICKS_TOKEN: dapi2f98369b849c3790a880a6a9e4748434
+      #     JOB_NAME: 'pipeline'
+      #     WAIT_TIMEOUT: '10m0s'
+      #   run: databricks jobs list
 
       - name: Run a databricks notebook
         env:
