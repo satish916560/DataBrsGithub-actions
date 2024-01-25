@@ -19,8 +19,8 @@ jobs:
        uses: databricks/run-notebook@v0
        with:
          local-notebook-path: .github/workflows/dabdemo_notebook.py
-         databricks-host: https://dbc-95407f87-ef26.cloud.databricks.com/
-         databricks-token: dapi53839f64ac3f396d08735ffef784b5b9 
+         databricks-host: https://dbc-11df7ca4-5026.cloud.databricks.com
+         databricks-token: dapi2f98369b849c3790a880a6a9e4748434 
                            # ${{ secrets.DATABRICKS_TOKEN }}
          new-cluster-json: >
            {
