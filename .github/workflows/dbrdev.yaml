@@ -1,4 +1,4 @@
-name: databricks-cicd 
+name: databricks-cicd
 
 on:
  push:
