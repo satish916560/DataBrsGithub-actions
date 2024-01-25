@@ -20,7 +20,8 @@ jobs:
        with:
          local-notebook-path: ./dabdemo_notebook.py
          databricks-host: https://dbc-95407f87-ef26.cloud.databricks.com/
-         databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
+         databricks-token: dapi53839f64ac3f396d08735ffef784b5b9 
+                           # ${{ secrets.DATABRICKS_TOKEN }}
          new-cluster-json: >
            {
              "num_workers": 1,
