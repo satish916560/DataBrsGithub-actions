@@ -14,9 +14,7 @@ jobs:
         run: |
          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh  
 
-      - name: Databricks CLI version
-        run: databricks --version
-     
+         
       - name: Run a databricks notebook
         env:
           DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
