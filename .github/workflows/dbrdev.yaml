@@ -1,7 +1,7 @@
 name: databricks-cicd
 
-# on:
-#  push:
+on:
+ push:
 
 jobs:
   main:
